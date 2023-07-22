@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Verificación de Edad</h1>
+    <label for="edad">Ingresa tu edad:</label>
+    <input type="number" id="edad" />
+    <button onclick="verificarEdad()">Verificar</button>
+    <p id="resultado"></p>
+    <br>
+    <h1>Calificación según la nota</h1>
+    <label for="nota">Ingresa la nota:</label>
+    <input type="number" id="nota" />
+    <button onclick="obtenerCalificacion()">Obtener Calificación</button>
+    <p id="calificacion"></p>
+    <br>
+
+    <h1>Concatenar cadenas de texto</h1>
+    <button onclick="solicitarCadenas()">Ingresar cadena</button>
+    <p id="resultado1"></p>
+    <br>
+
+    <h1>Calculadora de letra del DNI</h1>
+    <label for="dni">Ingresa el número de DNI (0 a 99999999):</label>
+    <input type="number" id="dni" />
+    <button onclick="calcularLetraDNI()">Calcular letra</button>
+    <p id="resultado2"></p>
+
+    <script src="script.js"></script> 
+</body>
+</html>
